@@ -1,0 +1,287 @@
+### DVT Elevator Challenge API - Sample Requests
+### Base URL: https://localhost:7xxx or http://localhost:5xxx
+
+@baseUrl = https://localhost:7001
+@buildingId = 1
+@elevatorId = 1
+
+### ============================================
+### BUILDINGS
+### ============================================
+
+### Get all buildings
+GET {{baseUrl}}/api/buildings
+Accept: application/json
+
+### Get building by ID
+GET {{baseUrl}}/api/buildings/{{buildingId}}
+Accept: application/json
+
+### Create a new building
+POST {{baseUrl}}/api/buildings
+Content-Type: application/json
+
+{
+  "name": "Tech Hub",
+  "totalFloors": 25
+}
+
+### ============================================
+### ELEVATORS
+### ============================================
+
+### Get all elevators
+GET {{baseUrl}}/api/elevators
+Accept: application/json
+
+### Get elevators by building
+GET {{baseUrl}}/api/elevators/building/{{buildingId}}
+Accept: application/json
+
+### Get elevator by ID
+GET {{baseUrl}}/api/elevators/{{elevatorId}}
+Accept: application/json
+
+### Get elevator status
+GET {{baseUrl}}/api/elevators/{{elevatorId}}/status
+Accept: application/json
+
+### Get all elevator statuses for a building
+GET {{baseUrl}}/api/elevators/building/{{buildingId}}/statuses
+Accept: application/json
+
+### Create a new elevator
+POST {{baseUrl}}/api/elevators
+Content-Type: application/json
+
+{
+  "name": "Elevator D",
+  "initialFloor": 0,
+  "maxCapacity": 12,
+  "speed": 60,
+  "elevatorTypeId": 1,
+  "buildingId": 1
+}
+
+### Set elevator to maintenance mode
+PUT {{baseUrl}}/api/elevators/{{elevatorId}}/maintenance
+Content-Type: application/json
+
+true
+
+### Remove elevator from maintenance mode
+PUT {{baseUrl}}/api/elevators/{{elevatorId}}/maintenance
+Content-Type: application/json
+
+false
+
+### ============================================
+### PASSENGER REQUESTS
+### ============================================
+
+### Request elevator - Going Up
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 0,
+  "destinationFloor": 10,
+  "passengerCount": 3,
+  "buildingId": 1
+}
+
+### Request elevator - Going Down
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 15,
+  "destinationFloor": 2,
+  "passengerCount": 5,
+  "buildingId": 1
+}
+
+### Request elevator - Multiple passengers
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 5,
+  "destinationFloor": 18,
+  "passengerCount": 8,
+  "buildingId": 1
+}
+
+### Get active requests for a building
+GET {{baseUrl}}/api/passengerrequests/building/{{buildingId}}/active
+Accept: application/json
+
+### Get request history (paginated)
+GET {{baseUrl}}/api/passengerrequests/building/{{buildingId}}/history?pageNumber=1&pageSize=20
+Accept: application/json
+
+### Get request by ID
+GET {{baseUrl}}/api/passengerrequests/1
+Accept: application/json
+
+### ============================================
+### FLOORS
+### ============================================
+
+### Get all floors for a building
+GET {{baseUrl}}/api/floors/building/{{buildingId}}
+Accept: application/json
+
+### Get floor status
+GET {{baseUrl}}/api/floors/building/{{buildingId}}/floor/5/status
+Accept: application/json
+
+### ============================================
+### HEALTH CHECK
+### ============================================
+
+### Check API health
+GET {{baseUrl}}/health
+Accept: application/json
+
+### ============================================
+### SCENARIO TESTS
+### ============================================
+
+### Scenario 1: Rush hour simulation
+### Multiple requests from ground floor
+
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 0,
+  "destinationFloor": 5,
+  "passengerCount": 4,
+  "buildingId": 1
+}
+
+###
+
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 0,
+  "destinationFloor": 12,
+  "passengerCount": 6,
+  "buildingId": 1
+}
+
+###
+
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 0,
+  "destinationFloor": 18,
+  "passengerCount": 3,
+  "buildingId": 1
+}
+
+### Scenario 2: Capacity test
+### Request with high passenger count
+
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 3,
+  "destinationFloor": 15,
+  "passengerCount": 15,
+  "buildingId": 1
+}
+
+### Scenario 3: Opposite directions
+### Simultaneous up and down requests
+
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 2,
+  "destinationFloor": 19,
+  "passengerCount": 4,
+  "buildingId": 1
+}
+
+###
+
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 18,
+  "destinationFloor": 1,
+  "passengerCount": 3,
+  "buildingId": 1
+}
+
+### ============================================
+### ERROR SCENARIOS
+### ============================================
+
+### Invalid request - Same floor
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 5,
+  "destinationFloor": 5,
+  "passengerCount": 2,
+  "buildingId": 1
+}
+
+### Invalid request - Negative floor
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": -1,
+  "destinationFloor": 10,
+  "passengerCount": 2,
+  "buildingId": 1
+}
+
+### Invalid request - Zero passengers
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 0,
+  "destinationFloor": 10,
+  "passengerCount": 0,
+  "buildingId": 1
+}
+
+### Invalid request - Too many passengers
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 0,
+  "destinationFloor": 10,
+  "passengerCount": 100,
+  "buildingId": 1
+}
+
+### Non-existent building
+POST {{baseUrl}}/api/passengerrequests
+Content-Type: application/json
+
+{
+  "sourceFloor": 0,
+  "destinationFloor": 10,
+  "passengerCount": 2,
+  "buildingId": 999
+}
+
+### Non-existent elevator
+GET {{baseUrl}}/api/elevators/999
+Accept: application/json

@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "New Profile",
+    "Projects": [
+      {
+        "Path": "DVT.Elevator.API\\DVT.Elevator.API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "DVT.Elevator.Application\\DVT.Elevator.Application.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

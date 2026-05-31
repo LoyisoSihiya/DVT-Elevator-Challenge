@@ -1,0 +1,11 @@
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\bin\Release\net8.0\DVT.Elevator.Domain.deps.json
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\bin\Release\net8.0\DVT.Elevator.Domain.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\bin\Release\net8.0\DVT.Elevator.Domain.pdb
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\obj\Release\net8.0\DVT.Elevator.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\obj\Release\net8.0\DVT.Elevator.Domain.AssemblyInfoInputs.cache
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\obj\Release\net8.0\DVT.Elevator.Domain.AssemblyInfo.cs
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\obj\Release\net8.0\DVT.Elevator.Domain.csproj.CoreCompileInputs.cache
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\obj\Release\net8.0\DVT.Elevator.Domain.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\obj\Release\net8.0\refint\DVT.Elevator.Domain.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\obj\Release\net8.0\DVT.Elevator.Domain.pdb
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Domain\obj\Release\net8.0\ref\DVT.Elevator.Domain.dll

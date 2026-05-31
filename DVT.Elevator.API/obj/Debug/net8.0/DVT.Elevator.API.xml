@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DVT.Elevator.API</name>
+    </assembly>
+    <members>
+        <member name="M:DVT.Elevator.API.Controllers.BuildingsController.GetAllBuildings">
+            <summary>
+            Get all buildings
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.BuildingsController.GetBuildingById(System.Int32)">
+            <summary>
+            Get building by ID with details
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.BuildingsController.CreateBuilding(DVT.Elevator.Domain.DTOs.CreateBuildingDto)">
+            <summary>
+            Create a new building
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.ElevatorsController.GetAllElevators">
+            <summary>
+            Get all elevators
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.ElevatorsController.GetElevatorsByBuilding(System.Int32)">
+            <summary>
+            Get elevators by building ID
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.ElevatorsController.GetElevatorById(System.Int32)">
+            <summary>
+            Get elevator by ID
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.ElevatorsController.GetElevatorStatus(System.Int32)">
+            <summary>
+            Get real-time elevator status
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.ElevatorsController.GetAllElevatorStatuses(System.Int32)">
+            <summary>
+            Get all elevator statuses for a building
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.ElevatorsController.CreateElevator(DVT.Elevator.Domain.DTOs.CreateElevatorDto)">
+            <summary>
+            Create a new elevator
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.ElevatorsController.SetMaintenanceMode(System.Int32,System.Boolean)">
+            <summary>
+            Set elevator maintenance mode
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.ElevatorTypesController.GetElevatorTypes">
+            <summary>
+            Get all elevator types
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.FloorsController.GetFloorsByBuilding(System.Int32)">
+            <summary>
+            Get all floors for a building
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.FloorsController.GetFloorStatus(System.Int32,System.Int32)">
+            <summary>
+            Get floor status
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.PassengerRequestsController.RequestElevator(DVT.Elevator.Domain.DTOs.CreatePassengerRequestDto)">
+            <summary>
+            Request an elevator
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.PassengerRequestsController.GetActiveRequests(System.Int32)">
+            <summary>
+            Get active requests for a building
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.PassengerRequestsController.GetRequestHistory(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Get request history for a building
+            </summary>
+        </member>
+        <member name="M:DVT.Elevator.API.Controllers.PassengerRequestsController.GetRequestById(System.Int32)">
+            <summary>
+            Get request by ID
+            </summary>
+        </member>
+    </members>
+</doc>

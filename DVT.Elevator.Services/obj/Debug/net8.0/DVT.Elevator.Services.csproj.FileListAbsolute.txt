@@ -1,0 +1,15 @@
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\bin\Debug\net8.0\DVT.Elevator.Services.deps.json
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\bin\Debug\net8.0\DVT.Elevator.Services.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\bin\Debug\net8.0\DVT.Elevator.Services.pdb
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\bin\Debug\net8.0\DVT.Elevator.Domain.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\bin\Debug\net8.0\DVT.Elevator.Domain.pdb
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\DVT.Elevator.Services.csproj.AssemblyReference.cache
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\DVT.Elevator.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\DVT.Elevator.Services.AssemblyInfoInputs.cache
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\DVT.Elevator.Services.AssemblyInfo.cs
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\DVT.Elevator.Services.csproj.CoreCompileInputs.cache
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\DVT.Elev.0B854C56.Up2Date
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\DVT.Elevator.Services.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\refint\DVT.Elevator.Services.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\DVT.Elevator.Services.pdb
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Services\obj\Debug\net8.0\ref\DVT.Elevator.Services.dll

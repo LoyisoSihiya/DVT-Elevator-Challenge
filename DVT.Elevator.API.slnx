@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DVT.Elevator.API/DVT.Elevator.API.csproj" />
+  <Project Path="DVT.Elevator.Application/DVT.Elevator.Application.csproj" />
+  <Project Path="DVT.Elevator.Domain/DVT.Elevator.Domain.csproj" />
+  <Project Path="DVT.Elevator.Infrastructure/DVT.Elevator.Infrastructure.csproj" />
+  <Project Path="DVT.Elevator.Services/DVT.Elevator.Services.csproj" />
+</Solution>

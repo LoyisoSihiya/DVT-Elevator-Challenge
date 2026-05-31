@@ -1,0 +1,17 @@
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\DVT.Elevator.Infrastructure.csproj.AssemblyReference.cache
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\DVT.Elevator.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\DVT.Elevator.Infrastructure.AssemblyInfoInputs.cache
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\DVT.Elevator.Infrastructure.AssemblyInfo.cs
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\DVT.Elevator.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\bin\Debug\net8.0\DVT.Elevator.Infrastructure.deps.json
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\bin\Debug\net8.0\DVT.Elevator.Infrastructure.runtimeconfig.json
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\bin\Debug\net8.0\DVT.Elevator.Infrastructure.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\bin\Debug\net8.0\DVT.Elevator.Infrastructure.pdb
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\bin\Debug\net8.0\DVT.Elevator.Domain.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\bin\Debug\net8.0\DVT.Elevator.Domain.pdb
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\DVT.Elev.5AB27363.Up2Date
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\DVT.Elevator.Infrastructure.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\refint\DVT.Elevator.Infrastructure.dll
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\DVT.Elevator.Infrastructure.pdb
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\DVT.Elevator.Infrastructure.genruntimeconfig.cache
+C:\Development\DVT.Elevator\DVT.Elevator.API\DVT.Elevator.Infrastructure\obj\Debug\net8.0\ref\DVT.Elevator.Infrastructure.dll
